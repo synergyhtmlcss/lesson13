@@ -1,0 +1,59 @@
+.container {
+    margin: 0 auto;
+    width: 70vw;
+}
+
+html {
+    font-size: 18px;
+}
+
+h1 {
+    width: 90%;
+    font-size: 3rem;
+}
+
+p {
+    line-height: 140%;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h2 + p {
+    background: rgb(212, 249, 0);
+}
+
+h2:hover {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(81, 255, 0);
+}
+
+.zayavka label, select, input, textarea {
+    display: block;
+}
+.zayavka input, textarea, select, fieldset{
+    margin-bottom: 15px;
+}
+fieldset input {
+    display: inline-block;
+}
+.logic-block {
+    padding: 100px 0;
+}
+
+.zayavka input, textarea, select {
+    font-size: 1.1rem;
+}
+
+.zayavka textarea {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+#vac ul li {
+    font-size: 1.5rem;
+}
